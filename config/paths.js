@@ -36,7 +36,6 @@ if (isInCreateReactAppSource) {
   module.exports = {
     appBuild: resolveOwn('../build'),
     appHtml: resolveOwn('../template/index.html'),
-    appFavicon: resolveOwn('../template/favicon.ico'),
     appPackageJson: resolveOwn('../package.json'),
     appStatic: resolveOwn('../template/static'),
     appSrc: resolveOwn('../template/src'),
@@ -48,7 +47,6 @@ if (isInCreateReactAppSource) {
   module.exports = {
     appBuild: resolveApp('build'),
     appHtml: resolveApp('index.html'),
-    appFavicon: resolveApp('favicon.ico'),
     appPackageJson: resolveApp('package.json'),
     appStatic: resolveApp('static'),
     appSrc: resolveApp('src'),
@@ -61,7 +59,6 @@ if (isInCreateReactAppSource) {
   module.exports = {
     appBuild: resolveApp('build'),
     appHtml: resolveApp('index.html'),
-    appFavicon: resolveApp('favicon.ico'),
     appPackageJson: resolveApp('package.json'),
     appStatic: resolveApp('static'),
     appSrc: resolveApp('src'),
