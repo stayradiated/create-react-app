@@ -10,7 +10,6 @@ The reason for this fork's existence is explained better in [this Medium article
 * babel-preset-stage-0
 * LESS
 * SASS
-* Stylus
 * CSS modules
 
 **the features are optional and can be turned on/off individually*
